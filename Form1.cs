@@ -3400,7 +3400,7 @@ namespace Fractionation
             btn_upcal.PerformClick();
             btn_downcal.Visible = true;
             btn_cornertest.Visible = true;
-            groupBox_cal.Text = "Callibrate X";
+            groupBox_cal.Text = "Calibrate X";
 
         } 
         private void btn_ycal_Click(object sender, EventArgs e)
@@ -3420,7 +3420,7 @@ namespace Fractionation
             btn_upcal.PerformClick();
             btn_downcal.Visible = true;
             btn_cornertest.Visible = true;
-            groupBox_cal.Text = "Callibrate Y";
+            groupBox_cal.Text = "Calibrate Y";
 
         }
         private void btn_zcal_Click(object sender, EventArgs e)
@@ -3440,7 +3440,7 @@ namespace Fractionation
             btn_upcal.PerformClick();
             btn_downcal.Visible = true;
             btn_cornertest.Visible = true;
-            groupBox_cal.Text = "Callibrate Z";
+            groupBox_cal.Text = "Calibrate Z";
             btn_minustenmm.Enabled = false;
             btn_plustenmm.Enabled = false;
 

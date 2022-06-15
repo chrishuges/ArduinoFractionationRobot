@@ -1929,7 +1929,7 @@
             this.txt_waiting.Name = "txt_waiting";
             this.txt_waiting.Size = new System.Drawing.Size(226, 20);
             this.txt_waiting.TabIndex = 118;
-            this.txt_waiting.Text = "Waiting for pump...";
+            this.txt_waiting.Text = "Waiting for start...";
             this.txt_waiting.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_waiting.Visible = false;
             // 
@@ -2144,6 +2144,11 @@
             0,
             0,
             0});
+            this.numericUpDown_purge.Maximum = new decimal(new int[] {
+            720,
+            0,
+            0,
+            0});
             // 
             // lbl_sequences
             // 
@@ -2213,7 +2218,7 @@
             this.txt_purge.Name = "txt_purge";
             this.txt_purge.Size = new System.Drawing.Size(226, 20);
             this.txt_purge.TabIndex = 119;
-            this.txt_purge.Text = "Purging pump...";
+            this.txt_purge.Text = "Start delay...";
             this.txt_purge.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_purge.Visible = false;
             // 
